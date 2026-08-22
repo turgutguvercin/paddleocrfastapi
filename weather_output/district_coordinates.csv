@@ -1,0 +1,48 @@
+lokasyon,province,district,latitude,longitude,elevation,geocoder_name,admin1,admin2,source
+İZMİR>ALİAĞA,İZMİR,ALİAĞA,38.79975,26.97203,24.0,Aliağa,İzmir,Aliağa,open_meteo_geocoder
+İZMİR>BALÇOVA,İZMİR,BALÇOVA,38.39201,27.04258,41.0,Balçova,İzmir,Balçova,open_meteo_geocoder
+İZMİR>BAYINDIR,İZMİR,BAYINDIR,38.4237,27.1428,,,İZMİR,BAYINDIR,province_fallback
+İZMİR>BAYRAKLI,İZMİR,BAYRAKLI,38.4237,27.1428,,,İZMİR,BAYRAKLI,province_fallback
+İZMİR>BERGAMA,İZMİR,BERGAMA,39.12074,27.18052,69.0,Bergama,İzmir,Bergama,open_meteo_geocoder
+İZMİR>BEYDAĞ,İZMİR,BEYDAĞ,38.08593,28.20843,226.0,Beydağ,İzmir,Beydağ,open_meteo_geocoder
+İZMİR>BORNOVA,İZMİR,BORNOVA,38.47921,27.2399,125.0,Bornova,İzmir,Bornova,open_meteo_geocoder
+İZMİR>BUCA,İZMİR,BUCA,38.3983,27.16662,140.0,Buca,İzmir,Buca,open_meteo_geocoder
+İZMİR>DİKİLİ,İZMİR,DİKİLİ,39.071,26.89017,8.0,Dikili,İzmir,Dikili İlçesi,open_meteo_geocoder
+İZMİR>FOÇA,İZMİR,FOÇA,38.6703,26.75656,5.0,Foça,İzmir,Foça İlçesi,open_meteo_geocoder
+İZMİR>GAZİEMİR,İZMİR,GAZİEMİR,38.32392,27.12918,144.0,Gaziemir,İzmir,Gaziemir,open_meteo_geocoder
+İZMİR>GÜZELBAHÇE,İZMİR,GÜZELBAHÇE,38.36042,26.88654,75.0,Güzelbahçe,İzmir,Güzelbahçe,open_meteo_geocoder
+İZMİR>KARABAĞLAR,İZMİR,KARABAĞLAR,38.382,27.132,78.0,Karabağlar,İzmir,Karabağlar,open_meteo_geocoder
+İZMİR>KARABURUN,İZMİR,KARABURUN,38.6364,26.51094,81.0,Karaburun,İzmir,Karaburun İlçesi,open_meteo_geocoder
+İZMİR>KARŞIYAKA,İZMİR,KARŞIYAKA,40.13969,32.8925,1010.0,Karsiyaka,Ankara,Pursaklar,open_meteo_geocoder
+İZMİR>KEMALPAŞA,İZMİR,KEMALPAŞA,38.43641,27.25991,60.0,Kemalpaşa,İzmir,Bornova,open_meteo_geocoder
+İZMİR>KINIK,İZMİR,KINIK,38.4237,27.1428,,,İZMİR,KINIK,province_fallback
+İZMİR>KİRAZ,İZMİR,KİRAZ,38.23056,28.20444,305.0,Kiraz,İzmir,Kiraz İlçesi,open_meteo_geocoder
+İZMİR>KONAK,İZMİR,KONAK,38.4,27.1,99.0,Konak,İzmir,Konak,open_meteo_geocoder
+İZMİR>MENDERES,İZMİR,MENDERES,38.24963,27.13429,118.0,Menderes,İzmir,Menderes,open_meteo_geocoder
+İZMİR>MENEMEN,İZMİR,MENEMEN,38.60754,27.06938,17.0,Menemen,İzmir,Menemen,open_meteo_geocoder
+İZMİR>NARLIDERE,İZMİR,NARLIDERE,38.4237,27.1428,,,İZMİR,NARLIDERE,province_fallback
+İZMİR>SEFERİHİSAR,İZMİR,SEFERİHİSAR,38.1975,26.83881,34.0,Seferihisar,İzmir,Seferihisar,open_meteo_geocoder
+İZMİR>SELÇUK,İZMİR,SELÇUK,37.95137,27.36849,35.0,Selçuk,İzmir,Selçuk İlçesi,open_meteo_geocoder
+İZMİR>TİRE,İZMİR,TİRE,38.08877,27.73508,120.0,Tire,İzmir,Tire,open_meteo_geocoder
+İZMİR>TORBALI,İZMİR,TORBALI,38.4237,27.1428,,,İZMİR,TORBALI,province_fallback
+İZMİR>URLA,İZMİR,URLA,38.32292,26.76403,67.0,Urla,İzmir,Urla İlçesi,open_meteo_geocoder
+İZMİR>ÇEŞME,İZMİR,ÇEŞME,38.32614,26.30574,9.0,Çeşme,İzmir,Çeşme İlçesi,open_meteo_geocoder
+İZMİR>ÇİĞLİ,İZMİR,ÇİĞLİ,38.49645,27.07029,65.0,Çiğli,İzmir,Çiğli,open_meteo_geocoder
+İZMİR>ÖDEMİŞ,İZMİR,ÖDEMİŞ,38.2278,27.96955,129.0,Ödemiş,İzmir,Ödemiş İlçesi,open_meteo_geocoder
+MANİSA>AHMETLİ,MANİSA,AHMETLİ,38.5196,27.93865,85.0,Ahmetli,Manisa,Ahmetli İlçesi,open_meteo_geocoder
+MANİSA>AKHİSAR,MANİSA,AKHİSAR,38.91852,27.84006,103.0,Akhisar,Manisa,Akhisar İlçesi,open_meteo_geocoder
+MANİSA>ALAŞEHİR,MANİSA,ALAŞEHİR,38.35083,28.51718,207.0,Alaşehir,Manisa,Alaşehir İlçesi,open_meteo_geocoder
+MANİSA>DEMİRCİ,MANİSA,DEMİRCİ,39.04607,28.65889,874.0,Demirci,Manisa,Demirci İlçesi,open_meteo_geocoder
+MANİSA>GÖLMARMARA,MANİSA,GÖLMARMARA,38.71389,27.91417,105.0,Gölmarmara,Manisa,Gölmarmara İlçesi,open_meteo_geocoder
+MANİSA>GÖRDES,MANİSA,GÖRDES,38.93278,28.28942,671.0,Gördes,Manisa,Gördes İlçesi,open_meteo_geocoder
+MANİSA>KIRKAĞAÇ,MANİSA,KIRKAĞAÇ,38.6191,27.4289,,,MANİSA,KIRKAĞAÇ,province_fallback
+MANİSA>KULA,MANİSA,KULA,38.54726,28.64976,671.0,Kula,Manisa,Kula,open_meteo_geocoder
+MANİSA>KÖPRÜBAŞI,MANİSA,KÖPRÜBAŞI,38.6191,27.4289,,,MANİSA,KÖPRÜBAŞI,province_fallback
+MANİSA>SALİHLİ,MANİSA,SALİHLİ,38.48258,28.14774,109.0,Salihli,Manisa,Salihli İlçesi,open_meteo_geocoder
+MANİSA>SARIGÖL,MANİSA,SARIGÖL,38.6191,27.4289,,,MANİSA,SARIGÖL,province_fallback
+MANİSA>SARUHANLI,MANİSA,SARUHANLI,38.6191,27.4289,,,MANİSA,SARUHANLI,province_fallback
+MANİSA>SELENDİ,MANİSA,SELENDİ,38.74444,28.86778,443.0,Selendi,Manisa,Selendi İlçesi,open_meteo_geocoder
+MANİSA>SOMA,MANİSA,SOMA,39.18554,27.60945,155.0,Soma,Manisa,Soma İlçesi,open_meteo_geocoder
+MANİSA>TURGUTLU,MANİSA,TURGUTLU,38.49533,27.6997,98.0,Turgutlu,Manisa,Turgutlu İlçesi,open_meteo_geocoder
+MANİSA>YUNUSEMRE,MANİSA,YUNUSEMRE,40.82742,38.11818,724.0,Yunusemre,Giresun,Piraziz İlçesi,open_meteo_geocoder
+MANİSA>ŞEHZADELER,MANİSA,ŞEHZADELER,38.6191,27.4289,,,MANİSA,ŞEHZADELER,province_fallback

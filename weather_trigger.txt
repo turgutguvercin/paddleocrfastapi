@@ -1,1 +1,1 @@
-Run the temporary Grid Up district weather fetch job.
+Run the temporary Grid Up district weather fetch job with corrected district coordinates.

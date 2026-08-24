@@ -1,1 +1,1 @@
-Trigger public Grid Up research artifact fetch.
+Trigger expanded public Grid Up research artifact fetch.

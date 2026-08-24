@@ -1,0 +1,1 @@
+Trigger public Grid Up research artifact fetch.

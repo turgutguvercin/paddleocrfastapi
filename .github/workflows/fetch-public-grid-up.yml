@@ -5,15 +5,16 @@ on:
     paths:
       - "grid_up_public_fetch_trigger.txt"
       - "aa_daily_load_crawl.py"
+      - "aa_search_probe.py"
   workflow_dispatch:
 
 permissions:
   contents: read
 
 jobs:
-  crawl-aa-load:
+  probe-aa-search:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 15
     steps:
       - name: Checkout trigger repository
         uses: actions/checkout@v4
@@ -21,14 +22,14 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Install crawler dependencies
-        run: python -m pip install --disable-pip-version-check pandas requests beautifulsoup4 lxml
-      - name: Crawl AA daily load seed pages
-        run: python aa_daily_load_crawl.py
-      - name: Upload AA load artifact
+      - name: Install probe dependencies
+        run: python -m pip install --disable-pip-version-check requests beautifulsoup4 lxml
+      - name: Probe AA search archive
+        run: python aa_search_probe.py
+      - name: Upload AA search artifact
         uses: actions/upload-artifact@v4
         with:
-          name: aa-daily-load-seed
-          path: aa_load_output/
+          name: aa-search-probe
+          path: aa_search_output/
           if-no-files-found: error
           retention-days: 1

@@ -10,22 +10,29 @@ permissions:
   contents: read
 
 jobs:
-  fetch-public-repo:
+  fetch-public-repos:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - name: Checkout trigger repository
         uses: actions/checkout@v4
-      - name: Clone public research repository
-        run: git clone --depth 1 https://github.com/RounenRais/grid-up-datahon.git public_grid_up
-      - name: Remove competition raw data and keep research artifacts
+      - name: Clone public research repositories
         run: |
-          rm -f public_grid_up/train.csv public_grid_up/test.csv public_grid_up/sample_submission.csv
-          rm -rf public_grid_up/.git public_grid_up/catboost_info
+          mkdir -p public_research
+          git clone --depth 1 https://github.com/RounenRais/grid-up-datahon.git public_research/RounenRais
+          git clone --depth 1 https://github.com/OmerFarukYildirim/Grid-Up-Datathon.git public_research/OmerFarukYildirim
+          git clone --depth 1 https://github.com/GizemmOzcan/grid-up-datathon.git public_research/GizemmOzcan
+          git clone --depth 1 https://github.com/beratmertkayacan/Grid-Up-Datathon.git public_research/beratmertkayacan
+          git clone --depth 1 https://github.com/aaayseee/grid-up-datathon.git public_research/aaayseee
+      - name: Remove Git metadata and raw competition data
+        run: |
+          find public_research -type d -name .git -prune -exec rm -rf {} +
+          find public_research -type f \( -name train.csv -o -name test.csv -o -name sample_submission.csv \) -delete
+          find public_research -type d -name catboost_info -prune -exec rm -rf {} +
       - name: Upload research files
         uses: actions/upload-artifact@v4
         with:
-          name: public-grid-up-research
-          path: public_grid_up/
+          name: public-grid-up-research-all
+          path: public_research/
           if-no-files-found: error
           retention-days: 1
